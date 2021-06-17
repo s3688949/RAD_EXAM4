@@ -1,6 +1,7 @@
 class CreateAttempts < ActiveRecord::Migration[5.2]
   def change
     create_table :attempts do |t|
+      t.integer :history_id
       t.string :time
       t.integer :correct
       t.integer :questions

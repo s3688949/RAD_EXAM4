@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2021_06_17_051626) do
   end
 
   create_table "attempts", force: :cascade do |t|
+    t.integer "history_id"
     t.string "time"
     t.integer "correct"
     t.integer "questions"
