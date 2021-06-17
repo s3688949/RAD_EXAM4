@@ -1,8 +1,8 @@
 <div class="container">
   <h1>Results</h1>
     <p>You got <%= cookies[:correct] %>/<%= cookies[:max] %> correct!</p>
-    <% if @h1.attempts %>
-      <% @h1.attempts.each do |attempt| %>
+    <% if @h1 %>
+      <% @h1.each do |attempt| %>
         <%= attempt.time %>
       <% end %>
     <% end %>
