@@ -1281,5 +1281,645 @@
 		],
 		"category": "DevOps",
 		"difficulty": "Easy"
+	},
+	{
+		"id": 40,
+		"question": "Which tag allows you to add a row in a table?",
+		"description": null,
+		"answers": {
+			"answer_a": "<td> and </td>",
+			"answer_b": "<tr> and </tr>",
+			"answer_c": "<th> and </th>",
+			"answer_d": "<cr> and </cr>",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 41,
+		"question": "Which of the following is not true?",
+		"description": null,
+		"answers": {
+			"answer_a": "PHP can be used to develop web applications.",
+			"answer_b": "PHP can not be embedded into html.",
+			"answer_c": "PHP applications can not be compiled",
+			"answer_d": "PHP makes a website dynamic",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 42,
+		"question": "Which of the following is true for a Persistent Cookie?",
+		"description": null,
+		"answers": {
+			"answer_a": "A persistent cookie is permanently stored in a cookie file on the browser's computer.",
+			"answer_b": "A persistent cookie is temporary stored in a cookie file on the browser's computer.",
+			"answer_c": "A persistent cookie is a data file capable of providing websites with user preferences, settings and information for future visits.",
+			"answer_d": "Persistent cookies provide convenient and rapid access to familiar objects, which enhances the user experience (UX)",
+			"answer_e": "A cookie that is stored on a user's hard drive until the next login",
+			"answer_f": "The next time you visit a particular site which you have already done it will not recognise you and will treat you as a completely new visitor as long as it hasn't been more than 2 days"
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 43,
+		"question": "To start a list using circles, use",
+		"description": null,
+		"answers": {
+			"answer_a": "<ul Type=\"circle\">",
+			"answer_b": "<ul =\"round\">",
+			"answer_c": "<ul \"round\">",
+			"answer_d": "<ul Type=\"round\">",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 44,
+		"question": "<SCRIPT> … </SCRIPT> tag can be placed within ________",
+		"description": null,
+		"answers": {
+			"answer_a": "Header",
+			"answer_b": "Body",
+			"answer_c": "Both the header and the body",
+			"answer_d": "None of the mentioned",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 45,
+		"question": "HTML are web pages read and rendered by",
+		"description": null,
+		"answers": {
+			"answer_a": "Compiler",
+			"answer_b": "Interpreter",
+			"answer_c": "Web Browser",
+			"answer_d": "Server",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 46,
+		"question": "What does PHP Stands for?",
+		"description": null,
+		"answers": {
+			"answer_a": "PHP Hypertex Processor",
+			"answer_b": "PHP Hypertext Preprocessor",
+			"answer_c": "PHP Hyper Markup Preprocessor",
+			"answer_d": "PHP Hyper Markup Processor",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "true",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 47,
+		"question": "What does PEAR stand for?",
+		"description": null,
+		"answers": {
+			"answer_a": "PHP Export and Application Repository.",
+			"answer_b": "PHP Extension and Application Repository.",
+			"answer_c": "PHP External and Application Repository.",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Hard"
+	},
+	{
+		"id": 48,
+		"question": "Which cryptographic extension provides generation and verification of digital signatures?",
+		"description": null,
+		"answers": {
+			"answer_a": "PHP-CloseSSL",
+			"answer_b": "PHP-SSL",
+			"answer_c": "PHP-OpenSSL",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Hard"
+	},
+	{
+		"id": 49,
+		"question": "Which of the following method can be used to create a MySql database using PHP?",
+		"description": null,
+		"answers": {
+			"answer_a": "mysql_connect()",
+			"answer_b": "mysql_query()",
+			"answer_c": "mysql_close()",
+			"answer_d": "None of the mentioned",
+			"answer_e": "mysql_create()",
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": "PHP uses mysql_query function to create a MySQL database.",
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 50,
+		"question": "What does the FROM instruction do in a Dockerfile?",
+		"description": null,
+		"answers": {
+			"answer_a": "FROM creates a layer from a base Docker image.",
+			"answer_b": "FROM specifies the creator of the image",
+			"answer_c": "FROM is an invalid instruction",
+			"answer_d": "FROM adds files from your Docker client’s current directory",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 51,
+		"question": "Docker can build images automatically by reading the instructions from:",
+		"description": null,
+		"answers": {
+			"answer_a": "docker.config",
+			"answer_b": "docker.json",
+			"answer_c": "docker.yaml",
+			"answer_d": "Dockerfile",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 52,
+		"question": "What does HPA stand for in Kubernetes?",
+		"description": null,
+		"answers": {
+			"answer_a": "Hyper Pod Autoscaler",
+			"answer_b": "Horizontal Production Autoscaler",
+			"answer_c": "Horizontal Pod Autoscaler",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 53,
+		"question": "What Is K8s?",
+		"description": null,
+		"answers": {
+			"answer_a": "Kubernetes, also sometimes called K8S (K – eight characters – S), is an open source backend framework for containerized applications that was born from the Azure data centers.",
+			"answer_b": "Kubernetes, also sometimes called K8S (K – eight characters – S), is an open source orchestration framework for containerized applications that was born from the Google data centers.",
+			"answer_c": null,
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 54,
+		"question": "How to install a docker plugin vieux/sshfs with debug environment set to 1.",
+		"description": null,
+		"answers": {
+			"answer_a": "$ docker plugin install vieux/sshfs DEBUG=1",
+			"answer_b": "$ docker install vieux/sshfs DEBUG=1",
+			"answer_c": "$ docker install plugins vieux/sshfs DEBUG=1",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 55,
+		"question": "__________________ is responsible for health check of the pods running on individual nodes",
+		"description": null,
+		"answers": {
+			"answer_a": "Kubectl",
+			"answer_b": "Kubelet",
+			"answer_c": "Kube scheduler",
+			"answer_d": "Kube controller manager",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 56,
+		"question": "Which command would show you the logs of a running pod in Kubernetes?",
+		"description": null,
+		"answers": {
+			"answer_a": "kubectl print pod-name",
+			"answer_b": "kubectl log pod-name",
+			"answer_c": "kubectl show -l pod-name",
+			"answer_d": "kubectl logs pod-name",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 57,
+		"question": "What are the components of Docker architecture?",
+		"description": null,
+		"answers": {
+			"answer_a": "The components of a Docker architecture are the Server, client, and Images.",
+			"answer_b": "The components of a Docker architecture are the host, client, and registry.",
+			"answer_c": "The components of a Docker architecture are the Services, Auth, and Prod.",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 58,
+		"question": "How do you get the number of containers running, paused and stopped?",
+		"description": null,
+		"answers": {
+			"answer_a": "docker info",
+			"answer_b": "sudo --docker info",
+			"answer_c": "docker --info",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 59,
+		"question": "Which command will you use to update a Kubernetes deployment?",
+		"description": null,
+		"answers": {
+			"answer_a": "kubectl setimage deployment/Deployment tomcat = tomcat:6.0",
+			"answer_b": "kubectl --setimage deployment/Deployment tomcat = tomcat:6.0",
+			"answer_c": "kubectl setimage deploy/Deployment tomcat = tomcat:6.0",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
 	}
 ]
