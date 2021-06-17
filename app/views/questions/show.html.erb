@@ -15,9 +15,9 @@
   <%= @question.explaination %>
 </p>
 
-<% @question.answers.each do |answer|
-  <p>answer.text</p>
-  <p>answer.correct</p>
+<% @question.answers.each do |answer| %>
+  <p><%=answer.text %></p>
+  <p><%=answer.correct %></p>
 <% end %>
 
 <p>
