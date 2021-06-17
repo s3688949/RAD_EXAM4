@@ -74,7 +74,7 @@ class QuestionsController < ApplicationController
     @cookieArray = cookies[:list] ? cookies[:list].split(",") : []
     number = @cookieArray.pop()
     cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : ''
-    if cookies[:completed] != cookies[:max]
+    if cookies[:completed] < cookies[:max]
       redirect_to questions_path + "/" + number
     else
       list = Array.new(60) { |i| 1 * i + 1}
