@@ -62,9 +62,9 @@ class QuestionsController < ApplicationController
       temp = cookies[:completed].to_i + 1
       cookies[:completed] = temp
     elsif
-      temp = cookies[:correct] + 1
+      temp = cookies[:correct].to_i + 1
       cookies[:correct] = temp
-      temp = cookies[:completed] + 1
+      temp = cookies[:completed].to_i + 1
       cookies[:completed] = temp
     end
     
