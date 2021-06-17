@@ -12,14 +12,7 @@
 
 <p>
   <strong>Explaination:</strong>
-  
 </p>
-
-<% answerArray = @question.answers.collect(&:correct) %>
-<%=answerArray %>
-<% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
-  <p><%= questionText %> and <% index %></p>
-<% end %>
 
 <%= @answerArray %>
 <%= @correctArray %>
