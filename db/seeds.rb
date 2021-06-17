@@ -8,6 +8,11 @@
 
 require "json"
 
+ActiveRecord::Base.connection.reset_pk_sequence!('questions')
+ActiveRecord::Base.connection.reset_pk_sequence!('answers')
+ActiveRecord::Base.connection.reset_pk_sequence!('attempts')
+ActiveRecord::Base.connection.reset_pk_sequence!('histories')
+
 Answer.destroy_all
 Attempt.destroy_all
 History.destroy_all
