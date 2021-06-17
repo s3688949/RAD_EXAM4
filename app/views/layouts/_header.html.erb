@@ -11,3 +11,5 @@
 <p>QUESTION MAX:<%=cookies[:max] %></p>
 <p>RANDOM QUESTION LIST:<%=cookies[:list] %></p>
 
+<% cookies[:list] = (list.class == Array) ? list.join(',') : '' %>
+
