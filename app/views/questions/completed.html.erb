@@ -6,7 +6,5 @@
         <p><%= attempt.time %></p>
       <% end %>
     <% end %>
-    <% @cookieArray = cookies[:list] ? cookies[:list].split(",") : [] %>
-    <a href="<%= questions_path + "/" + @cookieArray.pop().to_s %>"><button>RESTART QUIZ!</button></a>
-    <% cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : '' %>
+    <a href="/"><button>RESTART QUIZ!</button></a>
 </div>
