@@ -1,13 +1,10 @@
 Rails.application.routes.draw do
-  resources :histories
   get 'home/index'
   get 'questions/index', to: 'questions#index',
   
-  resources :history
+  resources :histories
   resources :attempts
   resources :questions
-  resources :sessions
-  resources :database
   resources :answers
 
   root :to => 'home#index'
