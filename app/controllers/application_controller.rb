@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
       cookies[:correct] = 0
       cookies[:max] = 4
       list = Array.new(60) { |i| 1 * i}
-      list.shuffle()
+      list = list.shuffle()
       cookies[:list] = list
     end
   end
