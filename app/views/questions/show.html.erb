@@ -15,13 +15,14 @@
   
 </p>
 
-<%= form_with url: "/answer", method: :get do |form| %>
+<form action="/answer" method="post" accept-charset="UTF-8" >
 
   <% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
-    <%= form.radio_button :result, @question.answers.collect(&:correct)[index] %>
-    <%= form.label :question, questionText %>
+    <input type="radio" id="answer" name="result" value="<%= @question.answers.collect(&:correct)[index] %>" />
+    <label for="answer"><%= questionText %></label>
   <% end %>
-<% end %>
+    <input name="submit" type="submit">
+</form>
 
 <p>
   <strong>Category:</strong>
