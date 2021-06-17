@@ -16,7 +16,7 @@ Question.destroy_all
 file = File.read('./quiz.json')
 data = JSON.parse(file)
 
-data.each do |child, index|
+data.each do |child|
   createObject = Question.create(text: child['question'], description: child['description'], explaination: child['explaination'], category: child['category'], difficulty: child['difficulty'])
   createObject.answers.build(text: child['answers']['answer_a'], correct: child['correct_answers']['answer_a_correct'])
   createObject.answers.build(text: child['answers']['answer_b'], correct: child['correct_answers']['answer_b_correct'])
