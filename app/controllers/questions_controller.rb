@@ -63,7 +63,6 @@ class QuestionsController < ApplicationController
     end
     
     @cookieArray = cookies[:list] ? cookies[:list].split(",") : []
-    <a href="<%= questions_path + "/" + @cookieArray.pop().to_s %>">START QUIZ!</button></a>
     number = @cookieArray.pop()
     cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : ''
     redirect_to questions_path + "/" + number
