@@ -1,8 +1,4 @@
 <h1>Quiz</h1>
-<% @cookieArray = cookies[:list] ? cookies[:list].split(",") : [] %>
-<a href="<%= questions_path + "/" + @cookieArray.pop().to_s %>"><button>START QUIZ!</button></a>
-<% cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : '' %>
-
 <form action="/" method="post" accept-charset="UTF-8">
   <div class="form-group">
     <input type="number" id="maxQuestions" name="maxQuestions" min="1" max="8" required/>
