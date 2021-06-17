@@ -3,9 +3,11 @@
     <a class="nav-link" href="#">Evan Mason. S3688949@student.rmit.edu</a>
   </li>
 </ul>
+<% cookies[:list] ? cookies[:list].split(",") : [] %>
 
 <p>COOKIE ID: <%=cookies[:userId] %></p>
 <p>QUESTIONS COMPLETE:<%=cookies[:completed] %></p>
 <p>CORRECT:<%=cookies[:correct] %></p>
 <p>QUESTION MAX:<%=cookies[:max] %></p>
+<p>RANDOM QUESTION LIST:<%=cookies[:list] %></p>
 
