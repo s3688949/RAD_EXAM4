@@ -56,10 +56,10 @@ class QuestionsController < ApplicationController
   def answer
     answer = params
     if params[:result] == "false"
-      cookies[:completed] += 1 
+      self.cookies[:completed] = cookies[:completed] + 1
     elsif 
-      cookies[:correct] += 1
-      cookies[:completed] += 1 
+      self.cookies[:correct] = cookies[:correct] + 1
+      self.cookies[:completed] = cookies[:completed] + 1 
     end
     
     @cookieArray = cookies[:list] ? cookies[:list].split(",") : []
