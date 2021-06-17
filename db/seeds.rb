@@ -28,13 +28,12 @@ Question.reset_pk_sequence
 file = File.read('./quiz.json')
 data = JSON.parse(file)
 
-data.each do |child|
+data.each do |child, index|
   createObject = Question.create(text: child['question'], description: child['description'], explaination: child['explaination'], category: child['category'], difficulty: child['difficulty'])
-  puts Question
-  createObject.answers.build(text: child['answers']['answer_a'], correct: child['correct_answers']['answer_a_correct'])
-  createObject.answers.build(text: child['answers']['answer_b'], correct: child['correct_answers']['answer_b_correct'])
-  createObject.answers.build(text: child['answers']['answer_c'], correct: child['correct_answers']['answer_c_correct'])
-  createObject.answers.build(text: child['answers']['answer_d'], correct: child['correct_answers']['answer_d_correct'])
-  createObject.answers.build(text: child['answers']['answer_e'], correct: child['correct_answers']['answer_e_correct'])
-  createObject.answers.build(text: child['answers']['answer_f'], correct: child['correct_answers']['answer_f_correct'])
+  createObject.answers.create(id: index, question_id: createObject['id'], text: child['answers']['answer_a'], correct: child['correct_answers']['answer_a_correct'])
+  createObject.answers.create(id: index, question_id: createObject['id'], text: child['answers']['answer_b'], correct: child['correct_answers']['answer_b_correct'])
+  createObject.answers.create(id: index, question_id: createObject['id'], text: child['answers']['answer_c'], correct: child['correct_answers']['answer_c_correct'])
+  createObject.answers.create(id: index, question_id: createObject['id'], text: child['answers']['answer_d'], correct: child['correct_answers']['answer_d_correct'])
+  createObject.answers.create(id: index, question_id: createObject['id'], text: child['answers']['answer_e'], correct: child['correct_answers']['answer_e_correct'])
+  createObject.answers.create(id: index, question_id: createObject['id'], text: child['answers']['answer_f'], correct: child['correct_answers']['answer_f_correct'])
 end
