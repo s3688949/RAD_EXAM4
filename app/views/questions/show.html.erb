@@ -19,7 +19,7 @@
 
   <% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
     <% if questionText != nil %>
-      <input type="radio" id="answer" name="result" value="<%= @question.answers.collect(&:correct)[index] %>" />
+      <input type="radio" id="answer" name="result" value="<%= @question.answers.collect(&:correct)[index] %>" required/>
       <label for="answer"><%= questionText %></label>
     <% end %>
   <% end %>

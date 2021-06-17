@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
     if not cookies[:userId]
       cookies[:userId] = Time.now.to_f
       h1= History.create(userId: cookies[:userId])
-      cookies[:compelted] = 0
+      cookies[:completed] = 0
       cookies[:correct] = 0
       cookies[:max] = 4
       list = Array.new(60) { |i| 1 * i + 1}
