@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'home/kill'
   get 'questions/index', to: 'questions#index'
+  post 'question/answer', to: 'questions#answer'
   
   resources :histories
   resources :attempts
