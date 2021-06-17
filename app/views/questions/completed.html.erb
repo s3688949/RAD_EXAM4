@@ -3,7 +3,7 @@
     <p>You got <%= cookies[:correct] %>/<%= cookies[:max] %> correct!</p>
     <% if @h1 %>
       <% @h1.each do |attempt| %>
-        <%= attempt.time %>
+        <p><%= attempt.time %></p>
       <% end %>
     <% end %>
     <% @cookieArray = cookies[:list] ? cookies[:list].split(",") : [] %>
