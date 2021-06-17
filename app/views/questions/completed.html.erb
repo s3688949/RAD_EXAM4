@@ -2,7 +2,7 @@
   <p>This time, you answered <%= cookies[:correct] %>/<%= cookies[:max] %> correctly!</p>
   <% if @h1 %>
     <% @h1.each do |attempt| %>
-      <p><%= attempt.time %></p>
+      <p>At <%= attempt.time %>, you answered <%= attempt.correct %>/<%= attempt.questions %> questions correctly</p>
     <% end %>
   <% end %>
 <a href="/"><button class="text-center">RESTART QUIZ!</button></a>
