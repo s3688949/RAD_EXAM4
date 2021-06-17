@@ -26,6 +26,9 @@ class QuestionsController < ApplicationController
   end
   
   def completed
+     @h1 = Histoy.all.where(userId: cookies[:userId].to_i)
+     h2 = Histoy.all.where(userId: cookies[:userId].to_i)
+     h2.create(time: Time.now, correct: cookies[:correct].to_i, questions: cookies[:max], difficulty: "All", category: "All")
   end
 
   # POST /questions or /questions.json
