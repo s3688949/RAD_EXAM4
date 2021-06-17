@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   def session?
     if not cookies[:userId]
       cookies[:userId] = Time.now.to_f
-      H = History.create(userId: cookies[:userId])
+      h1= History.create(userId: cookies[:userId])
       cookies[:compelted] = 0
       cookies[:correct] = 0
       cookies[:max] = 4
