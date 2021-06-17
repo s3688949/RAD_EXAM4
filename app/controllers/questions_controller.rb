@@ -51,6 +51,13 @@ class QuestionsController < ApplicationController
       end
     end
   end
+  
+  def answer
+    answer = params
+    if params[:result] == "false"
+      puts "wrontg"
+    end
+  end 
 
   # DELETE /questions/1 or /questions/1.json
   def destroy

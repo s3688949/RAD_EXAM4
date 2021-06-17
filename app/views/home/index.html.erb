@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Quiz</h1>
   <% @cookieArray = cookies[:list] ? cookies[:list].split(",") : [] %>
-  <button href="<%= @cookieArray.pop() %>">START QUIZ!</p>
+  <button href="<%= questions_path(@cookieArray.pop()) %>">START QUIZ!</p>
   <% cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : '' %>
   
   <p>Find me in app/views/home/index.html.erb</p>

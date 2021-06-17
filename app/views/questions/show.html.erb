@@ -15,8 +15,12 @@
   
 </p>
 
-<% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
-  <p><%= questionText %> and <% index %> <%= @question.answers.collect(&:correct)[index] %></p>
+<%= form_with url: "/answer", method: :get do |form| %>
+
+  <% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
+    <%= form.radio_button :result, "<%= @question.answers.collect(&:correct)[index] %>" %>
+    <%= form.label :question, "<%= questionText %>" %>
+  <% end %>
 <% end %>
 
 <p>
