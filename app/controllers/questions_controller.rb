@@ -24,6 +24,9 @@ class QuestionsController < ApplicationController
   # GET /questions/1/edit
   def edit
   end
+  
+  def completed
+  end
 
   # POST /questions or /questions.json
   def create
@@ -56,9 +59,9 @@ class QuestionsController < ApplicationController
   def answer
     answer = params
     if params[:result] == "false"
-      puts cookies[:completed]
-      puts cookies[:completed].to_i
-      puts cookies[:completed].to_i+1
+      #puts cookies[:completed]
+      #puts cookies[:completed].to_i
+      #puts cookies[:completed].to_i+1
       temp = cookies[:completed].to_i + 1
       cookies[:completed] = temp
     elsif
@@ -71,13 +74,13 @@ class QuestionsController < ApplicationController
     @cookieArray = cookies[:list] ? cookies[:list].split(",") : []
     number = @cookieArray.pop()
     cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : ''
-    if cookies[:correct] != cookies[:max]
+    if cookies[:completed] != cookies[:max]
       redirect_to questions_path + "/" + number
     else
       list = Array.new(60) { |i| 1 * i + 1}
       list = list.shuffle()
       cookies[:list] = (list.class == Array) ? list.join(',') : ''
-      redirect_to "/completed"
+      redirect_to questions_path + "/questions/completed"
     end
     
   end 
