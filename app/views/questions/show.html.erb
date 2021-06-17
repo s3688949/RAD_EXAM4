@@ -14,7 +14,7 @@
   <strong>Explaination:</strong>
   <%= @question.explaination %>
 </p>
-<p><%= @question.answers %></p>
+<p><%= @question.answers['text'] %></p>
 
 <% @question.answers.each do |answer| %>
   <p><%=answer.text %></p>
