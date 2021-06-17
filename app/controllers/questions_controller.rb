@@ -26,8 +26,7 @@ class QuestionsController < ApplicationController
   end
   
   def completed
-     h1 = Attempt.all.where(history_id: cookies[:userId].to_i)
-     @h1 = h1
+     @h1 = Attempt.all.where(history_id: cookies[:userId].to_i)
      Attempt.create(history_id: cookies[:userId].to_i, time: Time.now, correct: cookies[:correct].to_i, questions: cookies[:max], difficulty: "All", category: "All")
   end
 
