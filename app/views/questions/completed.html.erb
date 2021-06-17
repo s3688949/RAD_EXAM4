@@ -1,10 +1,11 @@
 <div class="container">
   <h1>Results</h1>
     <p>You got <%= cookies[:correct] %>/<%= cookies[:max] %> correct!</p>
-    
-    <% @h1.attempts.each do |attempt| %>
-      <%= attempt.time %>
-    
+    <% if @h1.attempts %>
+      <% @h1.attempts.each do |attempt| %>
+        <%= attempt.time %>
+      <% end %>
+    <% end %>
     <% @cookieArray = cookies[:list] ? cookies[:list].split(",") : [] %>
     <a href="<%= questions_path + "/" + @cookieArray.pop().to_s %>"><button>RESTART QUIZ!</button></a>
     <% cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : '' %>
