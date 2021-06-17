@@ -15,7 +15,7 @@
   
 </p>
 
-<form action="/answer" method="post" accept-charset="UTF-8" >
+<form action="/question/answer" method="post" accept-charset="UTF-8" >
 
   <% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
     <% if questionText != nil %>
