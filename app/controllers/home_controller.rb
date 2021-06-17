@@ -1,7 +1,5 @@
 class HomeController < ApplicationController
+  before_action :logged_in?
   def index
-    puts cookies[:storage]
-    cookies[:storage] = "HOPEFULLY THIS CARRIES"
-    puts cookies[:storage]
   end
 end
