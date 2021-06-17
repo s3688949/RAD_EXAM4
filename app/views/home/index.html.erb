@@ -3,4 +3,11 @@
 <a href="<%= questions_path + "/" + @cookieArray.pop().to_s %>"><button>START QUIZ!</button></a>
 <% cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : '' %>
 
+<form action="/" method="post" accept-charset="UTF-8">
+  <div class="form-group">
+    <input type="number" id="MaxQuestions" name="MaxQuestions" min="1" max="8" required/>
+    <label for="MaxQuestions">How many questions will you attempt?</label>
+  </div>
+  <input name="submit" type="submit">
+</form>
 <p>REMEMBER TO INSERT MAX CHANGER</p>
