@@ -11,7 +11,8 @@ class QuestionsController < ApplicationController
 
   # GET /questions/1 or /questions/1.json
   def show
-    @answerArray = @question.answers.collect(&:correct)
+    puts @question.answers.collect(&:text)
+    @answerArray = @question.answers.collect(&:text)
     puts @answerArray
     @correctArray = @question.answers.collect(&:correct)
     puts @correctArray
