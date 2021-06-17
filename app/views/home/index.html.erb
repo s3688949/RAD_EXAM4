@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Quiz</h1>
-  <% tempArray = cookies[:list] %>
-  <button href="<%= tempArray.pop() %>">START QUIZ!</p>
+  <% cookies[:list] ? cookies[:list].split(",") : [] %>
+  <button href="<%= cookies[:list].pop() %>">START QUIZ!</p>
   <% cookies[:list] = (list.class == Array) ? list.join(',') : '' %>
   
   <p>Find me in app/views/home/index.html.erb</p>
