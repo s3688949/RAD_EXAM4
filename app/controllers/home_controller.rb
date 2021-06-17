@@ -9,4 +9,12 @@ class HomeController < ApplicationController
     list = list.shuffle()
     cookies[:list] = (list.class == Array) ? list.join(',') : ''
   end
+  
+  def max_set
+    cookies[:max] = params[:maxQuestions].to_i
+    @cookieArray = cookies[:list] ? cookies[:list].split(",") : [] 
+    startPath = questions_path + "/" + @cookieArray.pop().to_s
+    cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : ''
+    redirect_to startPath
+  end
 end
