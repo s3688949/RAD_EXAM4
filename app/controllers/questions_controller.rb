@@ -1,5 +1,6 @@
 class QuestionsController < ApplicationController
   before_action :set_question, only: %i[ show edit update destroy ]
+  skip_before_action :verify_authenticity_token
 
   # GET /questions or /questions.json
   def index
