@@ -1,0 +1,1285 @@
+[
+	{
+		"id": 0,
+		"question": "Intensity of a color can be described through",
+		"description": null,
+		"answers": {
+			"answer_a": "Hue",
+			"answer_b": "Grayscale",
+			"answer_c": "Lightness",
+			"answer_d": "Saturation",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Hard"
+	},
+	{
+		"id": 1,
+		"question": "How can you pass a variable by reference?",
+		"description": null,
+		"answers": {
+			"answer_a": "$var1 = &$var2",
+			"answer_b": "$var1 == &$var2",
+			"answer_c": "$var1 === &$var2",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 2,
+		"question": "How to list all pods that are either labelled with env=development or with env=production",
+		"description": null,
+		"answers": {
+			"answer_a": "$ kubectl get pods -l 'env in (production, development)'",
+			"answer_b": "$ kubectl get pods 'env in (production, development)'",
+			"answer_c": null,
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "DevOps",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 3,
+		"question": "Which of the following function is used to get the size of a file?",
+		"description": null,
+		"answers": {
+			"answer_a": "sizefile()",
+			"answer_b": "file_size()",
+			"answer_c": "filesize()",
+			"answer_d": "size_file()",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": "The files's length can be found using the filesize() function which takes the file name as its argument and returns the size of the file expressed in bytes.",
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 4,
+		"question": "In PHP, the only way to output text is with echo.",
+		"description": null,
+		"answers": {
+			"answer_a": "False",
+			"answer_b": "True",
+			"answer_c": null,
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 5,
+		"question": "What does PVC stand for?",
+		"description": null,
+		"answers": {
+			"answer_a": "Pod Volume Claim",
+			"answer_b": "Persistent Volume Container",
+			"answer_c": "Persistent Volume Claim",
+			"answer_d": "Pod Volume Container",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 6,
+		"question": "Which function gives us the number of affected entries by a MySQL query?",
+		"description": null,
+		"answers": {
+			"answer_a": "mysqli_affected_rows() return the number of entries affected by an SQL query.",
+			"answer_b": "mysqli_rows() return the number of entries affected by an SQL query.",
+			"answer_c": "mysqli_num_rows() return the number of entries affected by an SQL query.",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 7,
+		"question": "DML is included into SQL language of:",
+		"description": null,
+		"answers": {
+			"answer_a": "managing users",
+			"answer_b": "managing transactions",
+			"answer_c": "description data",
+			"answer_d": "managing data",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "MySQL"
+			}
+		],
+		"category": "SQL",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 8,
+		"question": "How can you monitor Docker in production?",
+		"description": null,
+		"answers": {
+			"answer_a": "You can use Docker tools such as Docker pin and docker file for monitoring",
+			"answer_b": "You can use Docker tools such as Docker logs and docker plugins for monitoring",
+			"answer_c": "You can use Docker tools such as Docker events and docker stats for monitoring",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 9,
+		"question": "What is the command line interface used to communicate with Kubernetes?",
+		"description": null,
+		"answers": {
+			"answer_a": "kubeapi",
+			"answer_b": "kubelet",
+			"answer_c": "k8sctl",
+			"answer_d": "kubectl",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 10,
+		"question": "A much better approach to establish the base URL is to use the ______ element.",
+		"description": null,
+		"answers": {
+			"answer_a": "BODY",
+			"answer_b": "HEAD",
+			"answer_c": "BASE",
+			"answer_d": "None Of The Above",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 11,
+		"question": "Which command can be used to find a word from a text file?",
+		"description": null,
+		"answers": {
+			"answer_a": "cut",
+			"answer_b": "sort",
+			"answer_c": "find",
+			"answer_d": "grep",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "BASH"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 12,
+		"question": "How to list a particular Kubernetes deployment?",
+		"description": null,
+		"answers": {
+			"answer_a": "kubectl info deployment my-dep",
+			"answer_b": "kubectl get deployment my-dep",
+			"answer_c": "kubectl describe deployment my-dep",
+			"answer_d": "kubectl ls deployment my-dep",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 13,
+		"question": "With Ansible you can only use SSH key as it does not work with SSH password.",
+		"description": "You could either use SSH keys or you could use the -k argument and use SSH password instead.",
+		"answers": {
+			"answer_a": "true",
+			"answer_b": "false",
+			"answer_c": null,
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "DevOps"
+			}
+		],
+		"category": "DevOps",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 14,
+		"question": "What language was Kubernetes written in?",
+		"description": null,
+		"answers": {
+			"answer_a": "Go",
+			"answer_b": "C++",
+			"answer_c": "Java",
+			"answer_d": "C",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": "The Kubernetes project is written in the Go programming language, and you can browse its source code on GitHub.",
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 15,
+		"question": "HTML supports",
+		"description": null,
+		"answers": {
+			"answer_a": "ordered lists",
+			"answer_b": "unordered lists",
+			"answer_c": "both type of lists",
+			"answer_d": "does not support those types",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 16,
+		"question": "How can you count for a particular pattern occurrences in a file?",
+		"description": null,
+		"answers": {
+			"answer_a": "grep −c “pattern” <file>",
+			"answer_b": "grep −k “pattern” <file>",
+			"answer_c": "cat <file> | wc -k “pattern”",
+			"answer_d": "cat <file> | wc -l “pattern”",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "BASH"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 17,
+		"question": "Which character is used to indicate an end tag?",
+		"description": null,
+		"answers": {
+			"answer_a": "/",
+			"answer_b": "<",
+			"answer_c": "*",
+			"answer_d": "^",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 18,
+		"question": "Which attribute sets the text direction as related to lang attribute.",
+		"description": null,
+		"answers": {
+			"answer_a": "Sub",
+			"answer_b": "Dir",
+			"answer_c": "Ds",
+			"answer_d": "Lang",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 19,
+		"question": "Which command shows merged kubeconfig settings?",
+		"description": null,
+		"answers": {
+			"answer_a": "kubectl config view",
+			"answer_b": "kubectl config list",
+			"answer_c": "kubectl config show",
+			"answer_d": "kubectl config print",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 20,
+		"question": "Which command can be used to rename a file/directory?",
+		"description": null,
+		"answers": {
+			"answer_a": "mv",
+			"answer_b": "cp",
+			"answer_c": "rename",
+			"answer_d": "rm",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "BASH"
+			},
+			{
+				"name": "Linux"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 21,
+		"question": "What is a correct way to add a comment in PHP?",
+		"description": null,
+		"answers": {
+			"answer_a": "*\\...\\*",
+			"answer_b": "/*...*/",
+			"answer_c": "<!--...-->",
+			"answer_d": "<comment>...</comment>",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_b",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 22,
+		"question": "Which of the following attribute triggers event after the document is printed?",
+		"description": null,
+		"answers": {
+			"answer_a": "offlineprint",
+			"answer_b": "onbeforeprint",
+			"answer_c": "onafterprint",
+			"answer_d": "onprint",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 23,
+		"question": "Which command is used to remove all rows from a table?",
+		"description": null,
+		"answers": {
+			"answer_a": "Delete",
+			"answer_b": "Both Delete and Remove",
+			"answer_c": "Truncate",
+			"answer_d": "Remove",
+			"answer_e": "Drop",
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "MySQL"
+			}
+		],
+		"category": "SQL",
+		"difficulty": "Hard"
+	},
+	{
+		"id": 24,
+		"question": "Tags and test that are not directly displayed on the page are written in _____ section.",
+		"description": null,
+		"answers": {
+			"answer_a": "<html>",
+			"answer_b": "<body>",
+			"answer_c": "<title>",
+			"answer_d": "<head>",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 25,
+		"question": "Which of the following is not a services in Kubernetes?",
+		"description": null,
+		"answers": {
+			"answer_a": "Cluster IP",
+			"answer_b": "Node port",
+			"answer_c": "Load Balancer",
+			"answer_d": "External name",
+			"answer_e": "Container Proxy",
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "true",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "DevOps",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 26,
+		"question": "What does the following command do? - $ chmod o-r note",
+		"description": null,
+		"answers": {
+			"answer_a": "Read permission for others is removed",
+			"answer_b": "Read permission for others is added",
+			"answer_c": "Read permission for user is added",
+			"answer_d": "Read permission for user is removed",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "true",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": "User/owner of the is reffered with ‘o’. ‘r’ means read permission bit.",
+		"tip": null,
+		"tags": [
+			{
+				"name": "BASH"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 27,
+		"question": "How do you write \"Hello World\" in an alert box?",
+		"description": null,
+		"answers": {
+			"answer_a": "msgBox(\"Hello World\");",
+			"answer_b": "alert(\"Hello World\");",
+			"answer_c": "msg(\"Hello World\");",
+			"answer_d": "alertBox(\"Hello World\");",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "JavaScript"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 28,
+		"question": "_______________ is cocatenation operator in PHP ?",
+		"description": null,
+		"answers": {
+			"answer_a": "+ (plus)",
+			"answer_b": ".  (dot)",
+			"answer_c": "^",
+			"answer_d": "-",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 29,
+		"question": "In which PHP version was 'Final' introduced ?",
+		"description": null,
+		"answers": {
+			"answer_a": "'final' was introduced in PHP5.",
+			"answer_b": "'final' was introduced in PHP7.",
+			"answer_c": "'final' was introduced in PHP6.",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 30,
+		"question": "The query SELECT name, (SELECT study_program FROM programs) study_program FROM students will return the student name and the program that the student is studying.",
+		"description": null,
+		"answers": {
+			"answer_a": "True",
+			"answer_b": "False",
+			"answer_c": null,
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "MySQL"
+			}
+		],
+		"category": "SQL",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 31,
+		"question": "Which command can be used to make variables of shell to be made available to sub shell?",
+		"description": null,
+		"answers": {
+			"answer_a": "import",
+			"answer_b": "export",
+			"answer_c": "echo",
+			"answer_d": "set",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "BASH"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 32,
+		"question": "How can we define a Video Tag in HTML 5?",
+		"description": null,
+		"answers": {
+			"answer_a": "<video src \"URL\"></video>",
+			"answer_b": "<video src=\"URL\"></video>",
+			"answer_c": "<video></video>",
+			"answer_d": "<video src:\"URL\"></video>",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 33,
+		"question": "What is the correct HTML for making a drop-down list?",
+		"description": null,
+		"answers": {
+			"answer_a": "<input type=\"dropdown\">",
+			"answer_b": "<input type=\"list\">",
+			"answer_c": "<select>",
+			"answer_d": "<list>",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_c",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "HTML"
+			}
+		],
+		"category": "",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 34,
+		"question": "Choose the option to remove write permission for group & others for a file “a.txt”.",
+		"description": null,
+		"answers": {
+			"answer_a": "Select disable write for group and others where file=”a.txt”",
+			"answer_b": "chmod go-w a.txt",
+			"answer_c": "chmod w-go a.txt",
+			"answer_d": "chmod go=”r-x” a.txt",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "BASH"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 35,
+		"question": "How to list a particular Kubernetes deployment?",
+		"description": null,
+		"answers": {
+			"answer_a": "kubectl info deployment my-dep",
+			"answer_b": "kubectl get deployment my-dep",
+			"answer_c": "kubectl describe deployment my-dep",
+			"answer_d": "kubectl ls deployment my-dep",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "true",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "Linux",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 36,
+		"question": "How are functions in PHP which starts with __ (double underscore) known as?",
+		"description": null,
+		"answers": {
+			"answer_a": "Inbuilt Function",
+			"answer_b": "User Defined Function",
+			"answer_c": "Magic Function",
+			"answer_d": "Default Function",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "false",
+			"answer_b_correct": "false",
+			"answer_c_correct": "true",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "PHP"
+			}
+		],
+		"category": "Code",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 37,
+		"question": "How do you get the number of containers running, paused and stopped?",
+		"description": null,
+		"answers": {
+			"answer_a": "docker info",
+			"answer_b": "sudo --docker info",
+			"answer_c": "docker --info",
+			"answer_d": null,
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": "answer_a",
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Docker"
+			}
+		],
+		"category": "Docker",
+		"difficulty": "Medium"
+	},
+	{
+		"id": 38,
+		"question": "Which of the following are core Kubernetes objects?",
+		"description": null,
+		"answers": {
+			"answer_a": "Pods, Services, Volumes",
+			"answer_b": "Pods, Docker, Volumes",
+			"answer_c": "Pods, Services, Droplets",
+			"answer_d": "None of the mentioned",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "DevOps",
+		"difficulty": "Easy"
+	},
+	{
+		"id": 39,
+		"question": "___________________ is a special namespace that is used for special purposes like bootstrapping a cluster.",
+		"description": null,
+		"answers": {
+			"answer_a": "Kube-public",
+			"answer_b": "Kube-private",
+			"answer_c": "Kube-system",
+			"answer_d": "Default",
+			"answer_e": null,
+			"answer_f": null
+		},
+		"multiple_correct_answers": "false",
+		"correct_answers": {
+			"answer_a_correct": "true",
+			"answer_b_correct": "false",
+			"answer_c_correct": "false",
+			"answer_d_correct": "false",
+			"answer_e_correct": "false",
+			"answer_f_correct": "false"
+		},
+		"correct_answer": null,
+		"explanation": null,
+		"tip": null,
+		"tags": [
+			{
+				"name": "Kubernetes"
+			}
+		],
+		"category": "DevOps",
+		"difficulty": "Easy"
+	}
+]
