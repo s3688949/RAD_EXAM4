@@ -57,7 +57,17 @@ class QuestionsController < ApplicationController
     answer = params
     if params[:result] == "false"
       puts "wrontg"
+      
+    elsif 
+      puts "RIGHT"
     end
+    
+    @cookieArray = cookies[:list] ? cookies[:list].split(",") : []
+    <a href="<%= questions_path + "/" + (@cookieArray.pop())%>">START QUIZ!</button></a>
+    number = @cookieArray.pop()
+    cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : ''
+    redirect_to questions_path + "/" + number
+    
   end 
 
   # DELETE /questions/1 or /questions/1.json
