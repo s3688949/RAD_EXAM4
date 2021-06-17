@@ -5,15 +5,19 @@
   <%= @question.text %>
 </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @question.description %>
-</p>
+<% if @question.description != nil %>
+  <p>
+    <strong>Description:</strong>
+    <%= @question.description %>
+  </p>
+<% end %>
 
-<p>
-  <strong>Explaination:</strong>
-  
-</p>
+<% if @question.explaination != nil %>
+  <p>
+    <strong>Explaination:</strong>
+    <%= @question.explaination %>
+  </p>
+<% end %>
 
 <form action="/question/answer" method="post" accept-charset="UTF-8" >
 
