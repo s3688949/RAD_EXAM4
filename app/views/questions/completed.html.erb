@@ -1,10 +1,8 @@
-<div class="container">
-  <h1>Results</h1>
-    <p>You got <%= cookies[:correct] %>/<%= cookies[:max] %> correct!</p>
-    <% if @h1 %>
-      <% @h1.each do |attempt| %>
-        <p><%= attempt.time %></p>
-      <% end %>
+<h1>Results</h1>
+  <p>You got <%= cookies[:correct] %>/<%= cookies[:max] %> correct!</p>
+  <% if @h1 %>
+    <% @h1.each do |attempt| %>
+      <p><%= attempt.time %></p>
     <% end %>
-    <a href="/"><button>RESTART QUIZ!</button></a>
-</div>
+  <% end %>
+<a href="/"><button class="text-center">RESTART QUIZ!</button></a>
