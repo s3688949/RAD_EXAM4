@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'home/kill'
   get 'questions/index', to: 'questions#index'
   post 'question/answer', to: 'questions#answer'
-  get 'question/completed', to: 'questions#completed'
+  get 'questions/completed', to: 'questions#completed'
   
   resources :histories
   resources :attempts
