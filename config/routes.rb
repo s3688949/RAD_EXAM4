@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'home/index'
+  get 'home/kill'
   get 'questions/index', to: 'questions#index'
   
   resources :histories
