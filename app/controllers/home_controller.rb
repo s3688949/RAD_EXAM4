@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   before_action :session?
+  skip_before_action :verify_authenticity_token
   
   def index
     cookies[:completed] = 0
