@@ -13,11 +13,4 @@
     </li>
   </ul>
 </nav>
-<% @cookieArray = cookies[:list] ? cookies[:list].split(",") : [] %>
-
-<p>COOKIE ID: <%=cookies[:userId] %></p>
-<p>QUESTIONS COMPLETE:<%=cookies[:completed] %></p>
-<p>QUESTION MAX:<%=cookies[:max] %></p>
-
-<% cookies[:list] = (@cookieArray.class == Array) ? @cookieArray.join(',') : '' %>
 
