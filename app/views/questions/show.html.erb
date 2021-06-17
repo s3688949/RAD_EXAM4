@@ -15,8 +15,6 @@
   
 </p>
 
-<% answerArray = @question.answers.collect(&:correct) %>
-<%=answerArray %>
 <% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
   <p><%= questionText %> and <% index %> <%= @question.answers.collect(&:correct)[index] %></p>
 <% end %>
