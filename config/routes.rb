@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'home/index'
-  get 'home/kill'
+  post '/', to: 'home/max_set'
   get 'questions/index', to: 'questions#index'
   post 'question/answer', to: 'questions#answer'
   get 'results/completed', to: 'questions#completed'
