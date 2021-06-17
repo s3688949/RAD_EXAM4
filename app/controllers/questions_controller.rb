@@ -56,7 +56,10 @@ class QuestionsController < ApplicationController
   def answer
     answer = params
     if params[:result] == "false"
-      temp = cookies[:completed] + 1
+      puts cookies[:completed]
+      puts cookies[:completed].to_i
+      puts cookies[:completed].to_i+1
+      temp = cookies[:completed].to_i + 1
       cookies[:completed] = temp
     elsif
       temp = cookies[:correct] + 1
