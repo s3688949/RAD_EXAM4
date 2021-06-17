@@ -83,7 +83,7 @@ class QuestionsController < ApplicationController
       list = Array.new(60) { |i| 1 * i + 1}
       list = list.shuffle()
       cookies[:list] = (list.class == Array) ? list.join(',') : ''
-      redirect_to "results/completed"
+      redirect_to "/results/completed"
     end
     
   end 
