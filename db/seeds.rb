@@ -13,6 +13,18 @@ Attempt.destroy_all
 History.destroy_all
 Question.destroy_all
 
+Answer.delete_all
+Answer.reset_pk_sequence
+
+Attempt.delete_all
+Attempt.reset_pk_sequence
+
+History.delete_all
+History.reset_pk_sequence
+
+Question.delete_all
+Question.reset_pk_sequence
+
 file = File.read('./quiz.json')
 data = JSON.parse(file)
 
