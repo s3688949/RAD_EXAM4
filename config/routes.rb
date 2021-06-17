@@ -3,10 +3,6 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'questions/index', to: 'questions#index',
   
-  get 'sessions/new'
-  get 'sessions/create'
-  get 'sessions/destroy'
-  
   resources :history
   resources :attempts
   resources :questions
