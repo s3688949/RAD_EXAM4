@@ -8,21 +8,22 @@
 
 require "json"
 
-ActiveRecord::Base.connection.reset_pk_sequence!('questions')
-ActiveRecord::Base.connection.reset_pk_sequence!('answers')
-ActiveRecord::Base.connection.reset_pk_sequence!('attempts')
-ActiveRecord::Base.connection.reset_pk_sequence!('histories')
-
 Answer.destroy_all
 Attempt.destroy_all
 History.destroy_all
 Question.destroy_all
+
+ActiveRecord::Base.connection.reset_pk_sequence!('questions')
+ActiveRecord::Base.connection.reset_pk_sequence!('answers')
+ActiveRecord::Base.connection.reset_pk_sequence!('attempts')
+ActiveRecord::Base.connection.reset_pk_sequence!('histories')
 
 file = File.read('./quiz.json')
 data = JSON.parse(file)
 
 data.each do |child|
   createObject = Question.create(text: child['question'], description: child['description'], explaination: child['explaination'], category: child['category'], difficulty: child['difficulty'])
+  puts Question
   createObject.answers.build(text: child['answers']['answer_a'], correct: child['correct_answers']['answer_a_correct'])
   createObject.answers.build(text: child['answers']['answer_b'], correct: child['correct_answers']['answer_b_correct'])
   createObject.answers.build(text: child['answers']['answer_c'], correct: child['correct_answers']['answer_c_correct'])
