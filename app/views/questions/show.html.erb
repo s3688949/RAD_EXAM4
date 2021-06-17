@@ -19,8 +19,10 @@
 
   <% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
     <% if questionText != nil %>
+    <div class="form-group">
       <input type="radio" id="answer" name="result" value="<%= @question.answers.collect(&:correct)[index] %>" required/>
       <label for="answer"><%= questionText %></label>
+    </div>
     <% end %>
   <% end %>
     <input name="submit" type="submit">
@@ -35,6 +37,3 @@
   <strong>Difficulty:</strong>
   <%= @question.difficulty %>
 </p>
-
-<%= link_to 'Edit', edit_question_path(@question) %> |
-<%= link_to 'Back', questions_path %>
