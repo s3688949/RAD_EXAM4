@@ -8,8 +8,9 @@ class ApplicationController < ActionController::Base
       cookies[:compelted] = 0
       cookies[:correct] = 0
       cookies[:max] = 4
-      cookies[:list] = Array.new(60) { |i| 1 * i}
-      cookies[:list].shuffle()
+      list = Array.new(60) { |i| 1 * i}
+      list.shuffle()
+      cookies[:list] = list
     end
   end
 end

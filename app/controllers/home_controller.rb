@@ -11,5 +11,6 @@ class HomeController < ApplicationController
       cookies[:max] = nil
       cookies[:list] =nil
     end
+    redirect_to "/"
   end
 end
