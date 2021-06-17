@@ -71,6 +71,9 @@ class QuestionsController < ApplicationController
     if cookies[:correct] != cookies[:max]
       redirect_to questions_path + "/" + number
     else
+      list = Array.new(60) { |i| 1 * i + 1}
+      list = list.shuffle()
+      cookies[:list] = (list.class == Array) ? list.join(',') : ''
       redirect_to "/completed"
     end
     
