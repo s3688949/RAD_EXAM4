@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  questionString: MyString
-  description: MyString
-  explaination: MyString
-  category: MyString
-  difficulty: MyString
+  text: 
+  description: 
+  explaination: 
+  category: 
+  difficulty: 
 
 two:
-  questionString: MyString
-  description: MyString
-  explaination: MyString
-  category: MyString
-  difficulty: MyString
+  text: 
+  description: 
+  explaination: 
+  category: 
+  difficulty: 

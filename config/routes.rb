@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :histories
+  get 'database/index'
+  get 'database/show'
+  get 'database/edit'
+  get 'database/update'
+  get 'database/new'
   get 'question/new'
   get 'question/create'
   get 'question/destroy'

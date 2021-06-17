@@ -1,13 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  time: 
+  time: MyString
   correct: 1
+  questions: 1
   difficulty: MyString
   category: MyString
 
 two:
-  time: 
+  time: MyString
   correct: 1
+  questions: 1
   difficulty: MyString
   category: MyString

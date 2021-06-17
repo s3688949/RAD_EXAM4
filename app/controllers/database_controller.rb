@@ -1,13 +1,16 @@
 class DatabaseController < ApplicationController
-  def new
+  def index
   end
 
-  def create
-  end
-
-  def destroy
+  def show
   end
 
   def edit
+  end
+
+  def update
+  end
+
+  def new
   end
 end

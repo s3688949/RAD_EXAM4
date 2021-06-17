@@ -1,0 +1,42 @@
+<%= form_with(model: attempt, local: true) do |form| %>
+  <% if attempt.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(attempt.errors.count, "error") %> prohibited this attempt from being saved:</h2>
+
+      <ul>
+      <% attempt.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :time %>
+    <%= form.text_field :time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :correct %>
+    <%= form.number_field :correct %>
+  </div>
+
+  <div class="field">
+    <%= form.label :questions %>
+    <%= form.number_field :questions %>
+  </div>
+
+  <div class="field">
+    <%= form.label :difficulty %>
+    <%= form.text_field :difficulty %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %>
+    <%= form.text_field :category %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

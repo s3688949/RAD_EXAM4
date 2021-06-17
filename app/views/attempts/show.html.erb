@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @attempt.time %>
+</p>
+
+<p>
+  <strong>Correct:</strong>
+  <%= @attempt.correct %>
+</p>
+
+<p>
+  <strong>Questions:</strong>
+  <%= @attempt.questions %>
+</p>
+
+<p>
+  <strong>Difficulty:</strong>
+  <%= @attempt.difficulty %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @attempt.category %>
+</p>
+
+<%= link_to 'Edit', edit_attempt_path(@attempt) %> |
+<%= link_to 'Back', attempts_path %>

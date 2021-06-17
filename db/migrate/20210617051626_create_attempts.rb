@@ -3,6 +3,7 @@ class CreateAttempts < ActiveRecord::Migration[5.2]
     create_table :attempts do |t|
       t.string :time
       t.integer :correct
+      t.integer :questions
       t.string :difficulty
       t.string :category
 
