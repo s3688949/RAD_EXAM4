@@ -27,7 +27,7 @@ class QuestionsController < ApplicationController
   
   def completed
      @h1 = Attempt.all.where(userId: cookies[:userId].to_i)
-     Attempt.create(history_id: cookies[:userId].to_f, time: Time.now, correct: cookies[:correct].to_i, questions: cookies[:max], difficulty: "All", category: "All")
+     Attempt.create(history_id: cookies[:userId].to_i, time: Time.now, correct: cookies[:correct].to_i, questions: cookies[:max], difficulty: "All", category: "All")
   end
 
   # POST /questions or /questions.json
