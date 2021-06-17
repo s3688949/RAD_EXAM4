@@ -14,11 +14,11 @@
   <strong>Explaination:</strong>
   <%= @question.explaination %>
 </p>
-<p><%= @question.answers['text'] %></p>
+<p><%= @question.answers. %></p>
 
-<% @question.answers.each do |answer| %>
-  <p><%=answer.text %></p>
-  <p><%=answer.correct %></p>
+<% @question.answers.each do |@answer| %>
+  <p><%=@answer.text %></p>
+  <p><%=@answer.correct %></p>
 <% end %>
 
 <p>
