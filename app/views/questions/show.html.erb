@@ -18,8 +18,10 @@
 <form action="/answer" method="post" accept-charset="UTF-8" >
 
   <% @question.answers.collect(&:text).each_with_index do |questionText, index|%>
-    <input type="radio" id="answer" name="result" value="<%= @question.answers.collect(&:correct)[index] %>" />
-    <label for="answer"><%= questionText %></label>
+    <% if questionText != nil %>
+      <input type="radio" id="answer" name="result" value="<%= @question.answers.collect(&:correct)[index] %>" />
+      <label for="answer"><%= questionText %></label>
+    <% end %>
   <% end %>
     <input name="submit" type="submit">
 </form>
