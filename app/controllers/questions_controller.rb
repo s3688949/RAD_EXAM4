@@ -5,6 +5,8 @@ class QuestionsController < ApplicationController
   def index
     @questions = Question.all
     puts cookies[:storage]
+    cookies[:storage] = "HOPEFULLY THIS CHANGES"
+    puts cookies[:storage]
   end
 
   # GET /questions/1 or /questions/1.json
