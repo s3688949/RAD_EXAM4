@@ -103,7 +103,7 @@ _____ Heroku Build Log ____
        Bundle complete! 21 Gemfile dependencies, 66 gems now installed.
        Gems in the groups 'development' and 'test' were not installed.
        Bundled gems are installed into `./vendor/bundle`
-       Bundle completed (0.59s)
+       Bundle completed (0.56s)
        Cleaning up the bundler cache.
 -----> Installing node-v12.16.2-linux-x64
 -----> Detecting rake tasks
@@ -111,7 +111,7 @@ _____ Heroku Build Log ____
        Running: rake assets:precompile
        Yarn executable was not detected in the system.
        Download Yarn at https://yarnpkg.com/en/docs/install
-       Asset precompilation completed (1.68s)
+       Asset precompilation completed (1.64s)
        Cleaning assets
        Running: rake assets:clean
 -----> Detecting rails configuration
@@ -137,6 +137,5 @@ _____ Heroku Build Log ____
 -----> Compressing...
        Done: 78.4M
 -----> Launching...
-       Released v169
+       Released v170
        https://ancient-cove-68758.herokuapp.com/ deployed to Heroku
-       
