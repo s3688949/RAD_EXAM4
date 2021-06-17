@@ -16,7 +16,11 @@ ActiveRecord::Schema.define(version: 2021_06_17_051626) do
   enable_extension "plpgsql"
 
   create_table "answers", force: :cascade do |t|
+<<<<<<<<< saved version
     t.integer "question_id"
+=========
+    t.integer "question_id", null :false
+>>>>>>>>> local version
     t.string "text"
     t.string "correct"
     t.datetime "created_at", null: false
