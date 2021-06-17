@@ -26,8 +26,8 @@ class QuestionsController < ApplicationController
   end
   
   def completed
-     @h1 = Histroy.all.where(userId: cookies[:userId].to_i)
-     h2 = Histroy.all.where(userId: cookies[:userId].to_i)
+     @h1 = History.all.where(userId: cookies[:userId].to_i)
+     h2 = History.all.where(userId: cookies[:userId].to_i)
      h2.create(time: Time.now, correct: cookies[:correct].to_i, questions: cookies[:max], difficulty: "All", category: "All")
   end
 
