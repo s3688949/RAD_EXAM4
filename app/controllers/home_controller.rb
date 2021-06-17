@@ -9,7 +9,7 @@ class HomeController < ApplicationController
       cookies[:compelted] = nil
       cookies[:correct] = nil
       cookies[:max] = nil
-      cookies[:list] =nil
+      cookies[:list] = nil
     end
     redirect_to "/"
   end
