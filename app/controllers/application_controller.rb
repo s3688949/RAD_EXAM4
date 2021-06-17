@@ -11,7 +11,6 @@ class ApplicationController < ActionController::Base
       list = Array.new(60) { |i| 1 * i}
       list = list.shuffle()
       cookies[:list] = list
-      puts cookies[:list]
     end
   end
 end
