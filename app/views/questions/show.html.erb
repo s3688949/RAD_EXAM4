@@ -15,11 +15,7 @@
   <%= @question.explaination %>
 </p>
 <p><%= @question.answers.index(0) %></p>
-
-<% @question.answers.each do |@answer| %>
-  <p><%=@answer.text %></p>
-  <p><%=@answer.correct %></p>
-<% end %>
+<p><%= @question.answers.index(1) %></p>
 
 <p>
   <strong>Category:</strong>
